@@ -1,1 +1,2 @@
-"# GDAX-API-usage-pushing-to-MySQL-Table" 
+# Using the GDAX API to push historical crypto currency data to a MySQL Table
+The title is self explanatory. GDAX limits the amount of data you can pull at once, so it is necessary to send multiple requests for large amounts of data.  I've automatically configured the script to do this, simply enter your dates in start_date and hardend_date, add your database info into db, and let the script run. 
